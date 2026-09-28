@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios',
+    Description:
+      'Este componente formativo aborda los fundamentos teóricos, conceptuales y normativos relacionados con los brotes epidemiológicos en entornos penitenciarios, fortaleciendo los conocimientos necesarios para comprender su ocurrencia y propagación. Asimismo, orienta el desarrollo de habilidades para identificar, manejar, mitigar y controlar brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON), mediante la aplicación de lineamientos, protocolos y normatividad vigente en salud pública',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
+    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal-2.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,40 +36,88 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Verificación y seguimiento de la respuesta ante brotes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Mesas de seguimiento intersectoriales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Revisión de guías, lineamientos y protocolos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Seguimiento de los Eventos de Interés en Salud Pública (EISP)',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Verificación de las acciones de identificación, manejo, mitigación y control',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Evaluación e identificación de oportunidades de mejora',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Valoración de la aplicación de guías y protocolos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Evaluación de resultados de las acciones implementadas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Identificación de brechas y oportunidades de mejora',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Priorización de acciones de mejoramiento',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Formulación, implementación y evaluación de planes de mejora',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elaboración del plan de acción',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Implementación de acciones de mejora y capacitación',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Seguimiento al cumplimiento del plan de acción',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Evaluación de la ejecución y resultados del plan',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [

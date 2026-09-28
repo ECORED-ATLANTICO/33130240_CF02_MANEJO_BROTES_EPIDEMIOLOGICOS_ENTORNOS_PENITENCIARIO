@@ -3,15 +3,21 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 10%
+    left: 0%
+    width: 12%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    top: 10%
+    right: 0%
+    width: 12%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    bottom: 10%
+    right: 0%
+    width: 12%
 
 
 @keyframes float1
@@ -23,7 +29,7 @@
 
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-position: left top !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
@@ -35,7 +41,10 @@ figcaption, table caption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  max-width: 550px !important
+  padding-bottom: 0 !important
+  padding-right: 0 !important
+  padding-top: 0 !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
@@ -54,56 +63,44 @@ figcaption, table caption
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
+
+.bg-primario-p10
+  background-color: $color-primario-p10
+.bg-primario-p20
+  background-color: $color-primario-p20
+.bg-secundario-s5
+  background-color: $color-secundario-s5
+.bg-secundario-s10
+  background-color: $color-secundario-s10
+.bg-terciario
+  background-color: $color-terciario
+.bg-terciario-t5
+  background-color: $color-terciario-t5
+.bg-terciario-t20
+  background-color: $color-terciario-t20
+
+.imgw-85
+  width: 85px
+  margin: 0 auto
+.imgw-105
+  width: 105px
+  margin: 0 auto
+
+.bg-audio
+  background: url('../assets/curso/common/bg-audio.png')
   background-size: cover
+  background-position: center
   background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
 
+.banner-text
+  position: relative
+  border-radius: 10px
+  padding: 20px
+  margin-top: -30px
+  @media screen and (min-width: $bp-min-md)
+    padding: 20px 30px
+    margin-top: -80px 
 
-
-
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
-  
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-
-  
-
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
-
-  
- 
+.tabs-a__tab
+  background-color: $color-primario
+  color: $color-sistema-texto !important
