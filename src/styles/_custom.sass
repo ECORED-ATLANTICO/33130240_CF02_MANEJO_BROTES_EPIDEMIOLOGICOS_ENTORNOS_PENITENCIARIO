@@ -104,3 +104,32 @@ figcaption, table caption
 .tabs-a__tab
   background-color: $color-primario
   color: $color-sistema-texto !important
+
+.linea-tiempo-d__item
+  .linea-tiempo-d__item__content
+    background-color: $color-primario-p20 !important
+  .linea-tiempo-d__item__number
+    background-color: $color-secundario-s10 !important
+  
+  &.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: $color-terciario !important
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones !important
+
+.fullwidth-bg
+  display: none
+  @media screen and (min-width: 768px)
+    display: block
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: 0px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-1.png')
+
+.z-2
+  z-index: 2
+  position: relative

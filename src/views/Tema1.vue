@@ -127,7 +127,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El seguimiento de los Eventos de Interés en Salud Pública (EISP) constituye un componente esencial de la vigilancia epidemiológica en los establecimientos penitenciarios, debido a las condiciones particulares de convivencia, concentración poblacional y vulnerabilidad que pueden favorecer la aparición y propagación de enfermedades transmisibles.  
 
-    .row.justify-content-center.align-items-center.mb-3
+    .fullwidth-bg.fullwidth-bg--1
+    .row.justify-content-center.align-items-center.mb-3.z-2
       .col-lg-7
         p En este contexto, los EISP comprenden aquellos eventos que, por su frecuencia, gravedad, comportamiento epidemiológico, posibilidades de prevención o impacto colectivo, requieren vigilancia, notificación, análisis y, cuando corresponda, intervención por parte de las autoridades sanitarias y demás actores responsables. (Ministerio de Salud y Protección Social [MSPS], 2024).
         .bg-terciario-t5.p-4.py-3.rounded-4
@@ -136,8 +137,72 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/9.png", alt="")
     
-    .bg-secundario-s10.p-4.py-2.rounded-5
+    .bg-secundario-s10.p-4.py-2.rounded-5.mb-4.z-2
       p.mb-0.text-center Dentro de las acciones principales tenemos:
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-sm-8.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/10.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        LineaTiempoD.color-secundario
+          div(numero="1" titulo="Actualizar la información de los casos")
+            p.mb-0 Registrar y mantener actualizados los casos identificados, con sus datos clínicos, epidemiológicos y de seguimiento.
+          div(numero="2" titulo="Observar el comportamiento del evento")
+            p.mb-0 Analizar la evolución, frecuencia y distribución de los casos para identificar cambios o nuevos riesgos.
+          div(numero="3" titulo="Verificar las medidas implementadas")
+            p.mb-0 Comprobar el cumplimiento de las acciones de prevención, control e intervención establecidas.
+          div(numero="4" titulo="Tomar decisiones frente a los resultados")
+            p.mb-0 Utilizar la información para definir acciones de mejora, corregir dificultades y prevenir la aparición de nuevos casos.
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-7
+        p El seguimiento de estos eventos requiere garantizar la captura, notificación, análisis y flujo oportuno de la información epidemiológica. De acuerdo con el documento Manejo de brotes en población privada de la libertad, la notificación formal de los eventos identificados se realiza mediante el Sistema de Vigilancia en Salud Pública (SIVIGILA), a partir de la información recolectada mediante las estrategias de vigilancia establecidas; asimismo, los establecimientos deben disponer de recursos tecnológicos, talento humano capacitado, instrumentos de notificación y conocimiento de los procedimientos definidos para el sistema (MSPS, 2016).  
+        .bg-terciario.p-4.py-3.rounded-4.mb-4.mb-lg-0
+          p.mb-0 El mismo documento establece la importancia de la recolección diaria de información durante la atención en salud y de la verificación de los Registros Individuales de Prestación de Servicios de Salud (RIPS), con el propósito de identificar posibles casos omitidos en la notificación y comprobar el cumplimiento de los protocolos y criterios de definición de caso.
+      .col-sm-8.col-lg-5
+        figure
+          img(data-aos="fade-down-right", src="@/assets/curso/tema1/11.png", alt="")
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-sm-8.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/12.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        p En concordancia con lo anterior, el lineamiento de 2024 señala que las acciones de vigilancia deben desarrollarse conforme a los lineamientos emitidos por el Instituto Nacional de Salud (INS), manteniendo la articulación entre los diferentes niveles y actores del sistema.
+        .bg-secundario-s10.p-4.py-3.rounded-4
+          p.mb-0 Finalmente, el seguimiento de los EISP no debe limitarse a la notificación de casos, sino que debe permitir interpretar la información y activar oportunamente las acciones de respuesta y control.  
+
+    .bg-primario-p20.p-4.py-3.rounded-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p.mb-0 El lineamiento asigna a las direcciones municipales de salud responsabilidades relacionadas con la gestión interinstitucional e intersectorial para garantizar el flujo continuo de información y con la ejecución de las acciones colectivas definidas en los protocolos y lineamientos ante la ocurrencia de EISP, brotes, alertas o situaciones de emergencia, incluyendo la revisión del cumplimiento de la notificación, el apoyo a las investigaciones epidemiológicas y el análisis de los brotes (MSPS, 2024). 
+        .col-lg-2
+          figure
+            img.imgw-105(src="@/assets/curso/tema1/13.png", alt="" data-aos="zoom-in-down")
+
+    separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.4 Verificación de las acciones de identificación, manejo, mitigación y control
+
+    .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema1/15.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La verificación de las acciones de identificación, manejo, mitigación y control de brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON) constituye una etapa fundamental para determinar la oportunidad, pertinencia y cumplimiento de las medidas adoptadas frente a un evento de interés en salud pública. Este proceso debe partir de lo siguiente:  
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
