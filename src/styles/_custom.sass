@@ -85,6 +85,9 @@ figcaption, table caption
 .imgw-105
   width: 105px
   margin: 0 auto
+.imgw-190
+  width: 190px
+  margin: 0 auto
 
 .bg-audio
   background: url('../assets/curso/common/bg-audio.png')
@@ -133,3 +136,44 @@ figcaption, table caption
 .z-2
   z-index: 2
   position: relative
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: $color-primario-p20
+      h4
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.28rem ))
+    background-color: $color-primario-p20
+    font-size: 1em
+
+.accesibilidad
+  z-index: 3
+
+.linea-tiempo-d__item__content__title
+  @media screen and (max-width: $bp-min-sm)
+    height: 50px !important
+
+.tarjeta-audio
+  background-color: $white
+  &__texto
+    color: $color-sistema-texto !important
+
+  .tarjeta-audio__input input[type=range]
+    background-color: $color-acento-contenido !important
+
+  .audio__btn
+    background-color: $color-acento-botones !important
+
+  &__tiempo
+    color: $color-sistema-texto !important

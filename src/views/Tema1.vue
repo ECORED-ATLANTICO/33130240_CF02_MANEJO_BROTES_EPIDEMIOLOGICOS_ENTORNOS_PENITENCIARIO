@@ -72,8 +72,8 @@
         .bg-terciario-t20.p-4.py-3.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-10
-              p.mb-4.mb-lg-0 La información generada durante la vigilancia permite valorar la magnitud y evolución de los eventos, detectar cambios en sus patrones de ocurrencia y orientar las medidas de prevención y control. Asimismo, el análisis puede realizarse mediante Comités de Vigilancia Epidemiológica o unidades de análisis convocadas por las secretarías de salud, con participación de las entidades y funcionarios relacionados con la situación epidemiológica (MSPS, s. f.). 
-            .col-lg-2
+              p.mb-0 La información generada durante la vigilancia permite valorar la magnitud y evolución de los eventos, detectar cambios en sus patrones de ocurrencia y orientar las medidas de prevención y control. Asimismo, el análisis puede realizarse mediante Comités de Vigilancia Epidemiológica o unidades de análisis convocadas por las secretarías de salud, con participación de las entidades y funcionarios relacionados con la situación epidemiológica (MSPS, s. f.). 
+            .col-lg-2.d-none.d-lg-block
               figure
                 img.imgw-105(src="@/assets/curso/tema1/4.png", alt="" data-aos="zoom-in-down")
 
@@ -128,12 +128,12 @@
         p.mb-0 El seguimiento de los Eventos de Interés en Salud Pública (EISP) constituye un componente esencial de la vigilancia epidemiológica en los establecimientos penitenciarios, debido a las condiciones particulares de convivencia, concentración poblacional y vulnerabilidad que pueden favorecer la aparición y propagación de enfermedades transmisibles.  
 
     .fullwidth-bg.fullwidth-bg--1
-    .row.justify-content-center.align-items-center.mb-3.z-2
+    .row.justify-content-center.align-items-center.mb-4.z-2
       .col-lg-7
         p En este contexto, los EISP comprenden aquellos eventos que, por su frecuencia, gravedad, comportamiento epidemiológico, posibilidades de prevención o impacto colectivo, requieren vigilancia, notificación, análisis y, cuando corresponda, intervención por parte de las autoridades sanitarias y demás actores responsables. (Ministerio de Salud y Protección Social [MSPS], 2024).
         .bg-terciario-t5.p-4.py-3.rounded-4
           p.mb-0 Su desarrollo requiere mantener actualizada la información de los casos identificados, realizar seguimiento a las personas afectadas y sus contactos cuando corresponda, analizar la evolución del evento y verificar la continuidad de las medidas establecidas. Asimismo, facilita reconocer oportunamente la aparición de nuevos casos, cambios en los factores de riesgo o situaciones que puedan favorecer la transmisión. 
-      .col-sm-8.col-lg-5
+      .col-sm-8.col-lg-5.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/9.png", alt="")
     
@@ -165,7 +165,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/11.png", alt="")
     
     .row.justify-content-center.align-items-center.mb-3
-      .col-sm-8.col-lg-5
+      .col-sm-8.col-lg-5.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/12.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
@@ -175,7 +175,7 @@
 
     .bg-primario-p20.p-4.py-3.rounded-4
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-10.mb-4.mb-lg-0
           p.mb-0 El lineamiento asigna a las direcciones municipales de salud responsabilidades relacionadas con la gestión interinstitucional e intersectorial para garantizar el flujo continuo de información y con la ejecución de las acciones colectivas definidas en los protocolos y lineamientos ante la ocurrencia de EISP, brotes, alertas o situaciones de emergencia, incluyendo la revisión del cumplimiento de la notificación, el apoyo a las investigaciones epidemiológicas y el análisis de los brotes (MSPS, 2024). 
         .col-lg-2
           figure
@@ -188,13 +188,68 @@
 
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/tema1/15.png')})`}"
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema1/14.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La verificación de las acciones de identificación, manejo, mitigación y control de brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON) constituye una etapa fundamental para determinar la oportunidad, pertinencia y cumplimiento de las medidas adoptadas frente a un evento de interés en salud pública. Este proceso debe partir de lo siguiente:  
 
+    .row.justify-content-center.mb-2
+      .col-sm-8.col-lg-6.col-xl-4.mb-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/15.png", alt="alt")
+          .crd_hover_txt--body.p-4.pt-3
+            h4.mb-3 Identificación oportuna del evento 
+            p.mb-0 Verificar que los signos, síntomas o situaciones inusuales hayan sido reconocidos tempranamente, permitiendo activar la vigilancia, valoración y respuesta necesarias para evitar la propagación del evento.  
+      .col-sm-8.col-lg-6.col-xl-4.mb-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/16.png", alt="alt")
+          .crd_hover_txt--body.p-4.pt-1
+            h4.mb-3 Caracterización de la situación epidemiológica 
+            p.mb-0 Comprobar que se haya recopilado y analizado información sobre personas afectadas, tiempo, lugar y comportamiento de los casos, facilitando comprender la magnitud y evolución del evento. 
+      .col-sm-8.col-lg-6.col-xl-4.mb-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/17.png", alt="alt")
+          .crd_hover_txt--body.p-4.pt-3
+            h4.mb-3 Reconocimiento de factores de riesgo  
+            p.mb-0 Verificar la identificación de condiciones personales, sanitarias y ambientales que puedan favorecer la transmisión, considerando aspectos propios de la población privada de la libertad y del establecimiento penitenciario. 
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-7.mb-3.mb-lg-0
+        p El Ministerio de Salud y Protección Social establece que las acciones de prevención y control deben orientarse a la interrupción de la cadena epidemiológica y a la identificación de los factores de riesgo que puedan favorecer la ocurrencia y transmisión de enfermedades generadoras de brotes (Ministerio de Salud y Protección Social [MSPS], 2024). 
+        .bg-secundario-s10.p-4.py-3.rounded-4
+          p.mb-0 Finalmente, la verificación no debe limitarse a comprobar si las actividades fueron realizadas, sino que debe permitir identificar aciertos, incumplimientos, debilidades y oportunidades de mejora. Para ello, es necesario contrastar las acciones ejecutadas con las guías, lineamientos y protocolos establecidos, analizar los resultados obtenidos y, cuando se identifiquen brechas, establecer acciones correctivas y planes de mejora.  A continuación, se muestra de forma detallada el proceso de verificación: 
+      .col-sm-8.col-lg-5.d-none.d-lg-block
+        figure
+          img(data-aos="fade-down-right", src="@/assets/curso/tema1/18.png", alt="")
 
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-10.col-xl-8
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 1.
+          span Verificación de las acciones de identificación, manejo, mitigación y control
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/19-mob.png", alt="La figura muestra el proceso secuencial para verificar y fortalecer la respuesta institucional ante eventos de interés en salud pública. Integra la coordinación entre actores, la revisión de orientaciones técnicas, el seguimiento de la situación y la valoración de las acciones implementadas. El proceso finaliza con la evaluación de los resultados, permitiendo determinar si las medidas aplicadas son adecuadas o si existen brechas que requieren ajustes y acciones de mejora para fortalecer la respuesta.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/19.png", alt="La figura muestra el proceso secuencial para verificar y fortalecer la respuesta institucional ante eventos de interés en salud pública. Integra la coordinación entre actores, la revisión de orientaciones técnicas, el seguimiento de la situación y la valoración de las acciones implementadas. El proceso finaliza con la evaluación de los resultados, permitiendo determinar si las medidas aplicadas son adecuadas o si existen brechas que requieren ajustes y acciones de mejora para fortalecer la respuesta.")
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.col-xl-8
+        .bg-audio.rounded-4.px-4.py-4.py-lg-0
+          .row.align-items-center.justify-content-center
+            .col-8.col-sm-4
+              figure
+                img.imgw-190.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="")
+            .col-sm-8.col-lg-8
+              p A continuación, se invita a ir al siguiente podcast: 
+              TarjetaAudio.mb-3(
+                texto="Técnicas de corte profesional precisión estética y seguridad en la cocina fría"
+                tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false")
 
 
 
