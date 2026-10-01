@@ -12,7 +12,7 @@
     .row.justify-content-center
       .col-lg-11.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura presenta la estructura jerárquica del componente formativo Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios. La información se organiza en tres ejes articulados que abarcan la verificación de la respuesta institucional, el análisis de las acciones desarrolladas y la gestión de oportunidades de mejora. En conjunto, muestra una secuencia orientada a evaluar resultados, identificar necesidades, implementar acciones correctivas y fortalecer continuamente la capacidad institucional para responder ante eventos epidemiológicos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

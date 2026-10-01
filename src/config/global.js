@@ -162,14 +162,86 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acción de mejora',
+      significado:
+        'Actividad planificada para corregir una debilidad, superar una brecha o fortalecer la respuesta institucional frente a un evento epidemiológico.',
+    },
+    {
+      termino: 'Brecha',
+      significado:
+        'Diferencia identificada entre las acciones o resultados esperados y las condiciones o resultados realmente alcanzados.',
+    },
+    {
+      termino: 'Control sanitario',
+      significado:
+        'Conjunto de medidas destinadas a reducir o eliminar factores de riesgo que pueden afectar la salud de las personas y favorecer la transmisión de enfermedades.',
+    },
+    {
+      termino: 'EISP',
+      significado:
+        'Evento de Interés en Salud Pública que, por sus características, requiere vigilancia, seguimiento y acciones de respuesta por parte de las autoridades sanitarias.',
+    },
+    {
+      termino: 'Intersectorialidad',
+      significado:
+        'Articulación y coordinación entre diferentes instituciones y sectores para desarrollar acciones conjuntas frente a un evento de salud pública.',
+    },
+    {
+      termino: 'Plan de mejora',
+      significado:
+        'Instrumento que organiza acciones dirigidas a corregir brechas, fortalecer procesos y mejorar la respuesta institucional.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Manejo de brotes en población privada de la libertad (PPL)</em> [Documento técnico].',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial de la Salud. (2023). <em>Principles for making prisons and places of detention resilient to infectious diseases, including epidemic and pandemic threats</em>. WHO Regional Office for Europe.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Lineamientos generales para la vigilancia y control de eventos de interés en salud pública en establecimientos penitenciarios y carcelarios - Colombia 2012</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Patiño, C. P., & Mosquera, C. J. (2025). <em>Proceso salud-enfermedad</em> [Presentación de PowerPoint].',
+      link: '',
+    },
+    {
+      referencia:
+        'Bernal, C. (s. f.). <em>Fundamentos de epidemiología: Eje 1. Conceptualicemos</em> [Referente de pensamiento].',
+      link: '',
+    },
+    {
+      referencia:
+        'Leavell, H. R., & Clark, E. G. (1965). <em>Preventive medicine for the doctor in his community: An epidemiologic approach</em> (3rd ed.). McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mosquera Agualimpia, C. J. (2025). <em>Microorganismos y cadena de transmisión</em> [Presentación de PowerPoint]. SENA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Conceptos básicos de epidemiología. (s. f.). <em>Conceptos básicos de epidemiología</em> [Capítulo de libro].',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Guía de vigilancia y control de salud pública para población privada de la libertad</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2024). <em>Lineamiento para el fortalecimiento de las acciones de prevención de enfermedades transmisibles generadoras de brotes en población privada de la libertad</em>. Ministerio de Salud y Protección Social.',
+      link: '',
     },
   ],
   creditos: [
