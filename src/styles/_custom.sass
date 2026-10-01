@@ -50,7 +50,7 @@ figcaption, table caption
 
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-color: $color-terciario-t5 !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
@@ -78,12 +78,17 @@ figcaption, table caption
   background-color: $color-terciario-t5
 .bg-terciario-t20
   background-color: $color-terciario-t20
+.bg-sistema-h
+  background-color: $color-sistema-h
 
 .imgw-50
   width: 50px
   margin: 0 auto
 .imgw-85
   width: 85px
+  margin: 0 auto
+.imgw-95
+  width: 95px
   margin: 0 auto
 .imgw-105
   width: 105px
@@ -116,6 +121,18 @@ figcaption, table caption
 .tabs-a__tab
   background-color: $color-primario
   color: $color-sistema-texto !important
+
+.tabs-a.custom-tabs
+  .col-lg-4.col-xl-3
+    @media screen and (min-width: $bp-min-lg)
+      width: 40%
+    // @media screen and (min-width: $bp-min-xl)
+    //   width: 55%
+  .col-lg-8.col-xl-9
+    @media screen and (min-width: $bp-min-lg)
+      width: 60%
+    // @media screen and (min-width: $bp-min-xl)
+    //   width: 45%
 
 .linea-tiempo-d__item
   .linea-tiempo-d__item__content
@@ -197,3 +214,31 @@ figcaption, table caption
   .slyder-a__bullets__item
     background-color: $color-acento-botones
     border-color: $color-acento-botones
+    @media screen and (max-width: $bp-min-sm)
+      margin: 0 5px !important
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  .slyder-f__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+  
+  .tarjeta
+    inner-shadow: 1px 1px 1px 1px $color-primario-p20 !important
+
+.slyder-f__btn
+  height: 46px
+  width: 46px
+  max-width: 46px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 18px
+  .fa-chevron-right
+    font-size: 18px

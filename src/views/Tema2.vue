@@ -50,7 +50,6 @@
             .tarjeta.tarjeta--blanca.p-lg-4.rounded-4.px-lg-5
               h5.mb-4 Análisis de los factores de riesgo identificados 
               p.mb-0 Valorar las condiciones individuales, sanitarias, ambientales e institucionales relacionadas con el evento, determinando cuáles persisten o requieren intervención para priorizar acciones que reduzcan el riesgo de transmisión y recurrencia. 
-
       .col-sm-6.col-lg-4.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/3.png", alt="")
