@@ -190,18 +190,6 @@
           .tarjeta.tarjeta--blanca.p-4.pt-5.bg-sistema-h
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95(src='@/assets/curso/tema3/12.svg' alt='')
-            h5.text-center Manejo de factores de riesgo 
-            p.mb-0.text-center Reconocer e intervenir las condiciones individuales, sanitarias, ambientales e institucionales que puedan favorecer la aparición o propagación de enfermedades, priorizando medidas de prevención y control según los riesgos identificados. 
-          .tarjeta.tarjeta--blanca.p-4.pt-5.bg-sistema-h
-            .row.justify-content-center.mb-3
-              .col-6.col-sm-4.col-xl-5
-                img.imgw-95(src='@/assets/curso/tema3/13.svg' alt='')
-            h5.text-center Rutas institucionales de comunicación y respuesta 
-            p.mb-0.text-center Reconocer los canales, responsables y procedimientos establecidos para comunicar situaciones epidemiológicas, coordinar acciones y activar oportunamente la respuesta entre las áreas y entidades involucradas.
-          .tarjeta.tarjeta--blanca.p-4.pt-5.bg-sistema-h
-            .row.justify-content-center.mb-3
-              .col-6.col-sm-4.col-xl-5
                 img.imgw-95(src='@/assets/curso/tema3/14.svg' alt='')
             h5.text-center Higiene de manos 
             p.mb-0.text-center Realizar adecuadamente el lavado o la higiene de manos en los momentos requeridos, como práctica fundamental para disminuir la transmisión de microorganismos entre personas, superficies y espacios del establecimiento. 
@@ -211,6 +199,18 @@
                 img.imgw-95(src='@/assets/curso/tema3/15.svg' alt='')
             h5.text-center Limpieza y desinfección 
             p.mb-0.text-center Aplicar procedimientos adecuados para retirar suciedad y reducir la presencia de microorganismos en superficies, equipos y espacios, de acuerdo con su nivel de riesgo y los protocolos establecidos. 
+          .tarjeta.tarjeta--blanca.p-4.pt-5.bg-sistema-h
+            .row.justify-content-center.mb-3
+              .col-6.col-sm-4.col-xl-5
+                img.imgw-95(src='@/assets/curso/tema3/12.svg' alt='')
+            h5.text-center Manejo de factores de riesgo 
+            p.mb-0.text-center Reconocer e intervenir las condiciones individuales, sanitarias, ambientales e institucionales que puedan favorecer la aparición o propagación de enfermedades, priorizando medidas de prevención y control según los riesgos identificados. 
+          .tarjeta.tarjeta--blanca.p-4.pt-5.bg-sistema-h
+            .row.justify-content-center.mb-3
+              .col-6.col-sm-4.col-xl-5
+                img.imgw-95(src='@/assets/curso/tema3/13.svg' alt='')
+            h5.text-center Rutas institucionales de comunicación y respuesta 
+            p.mb-0.text-center Reconocer los canales, responsables y procedimientos establecidos para comunicar situaciones epidemiológicas, coordinar acciones y activar oportunamente la respuesta entre las áreas y entidades involucradas.
       .col-lg-4.d-none.d-lg-block
         figure
           img.imgw-324(src='@/assets/curso/tema3/16.png', alt='')
@@ -220,7 +220,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/17.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p El lineamiento identifica fallas en los procesos de limpieza y desinfección y propone como acciones de mejora fortalecer estos procesos y realizar capacitación al personal y a la población privada de la libertad para mejorar las condiciones del entorno (MSPS, 2024) 
+        p El lineamiento identifica fallas en los procesos de limpieza y desinfección y propone como acciones de mejora fortalecer estos procesos y realizar capacitación al personal y a la población privada de la libertad para mejorar las condiciones del entorno (MSPS, 2024).
         .bg-terciario.p-4.py-3.rounded-4
           p.mb-0 La implementación de las acciones de mejora también requiere fortalecer la capacidad institucional para utilizar la información epidemiológica en la toma de decisiones. El análisis de los brotes debe permitir reconocer las causas de las situaciones identificadas, establecer medidas correctivas y verificar posteriormente si estas fueron efectivas.  
 
@@ -239,8 +239,8 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span Ciclo de atención frente a eventos epidemiológicos
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/19-mob.png", alt="La figura muestra un ciclo continuo de mejora orientado a fortalecer la respuesta institucional frente a eventos epidemiológicos. Mediante una secuencia organizada, muestra cómo el análisis de las situaciones permite establecer mejoras, fortalecer las capacidades del personal, desarrollar las acciones previstas y comprobar sus resultados. La conexión entre las etapas evidencia que el proceso se retroalimenta continuamente, facilitando la identificación de nuevas necesidades y la realización de ajustes que favorecen una respuesta más oportuna, coordinada y efectiva ")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/19.png", alt="La figura muestra un ciclo continuo de mejora orientado a fortalecer la respuesta institucional frente a eventos epidemiológicos. Mediante una secuencia organizada, muestra cómo el análisis de las situaciones permite establecer mejoras, fortalecer las capacidades del personal, desarrollar las acciones previstas y comprobar sus resultados. La conexión entre las etapas evidencia que el proceso se retroalimenta continuamente, facilitando la identificación de nuevas necesidades y la realización de ajustes que favorecen una respuesta más oportuna, coordinada y efectiva ")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/19-mob.png", alt="La figura muestra un ciclo continuo de mejora orientado a fortalecer la respuesta institucional frente a eventos epidemiológicos. Mediante una secuencia organizada, muestra cómo el análisis de las situaciones permite establecer mejoras, fortalecer las capacidades del personal, desarrollar las acciones previstas y comprobar sus resultados. La conexión entre las etapas evidencia que el proceso se retroalimenta continuamente, facilitando la identificación de nuevas necesidades y la realización de ajustes que favorecen una respuesta más oportuna, coordinada y efectiva.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/19.png", alt="La figura muestra un ciclo continuo de mejora orientado a fortalecer la respuesta institucional frente a eventos epidemiológicos. Mediante una secuencia organizada, muestra cómo el análisis de las situaciones permite establecer mejoras, fortalecer las capacidades del personal, desarrollar las acciones previstas y comprobar sus resultados. La conexión entre las etapas evidencia que el proceso se retroalimenta continuamente, facilitando la identificación de nuevas necesidades y la realización de ajustes que favorecen una respuesta más oportuna, coordinada y efectiva.")
         
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -319,7 +319,7 @@
 
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.4 Evaluación del seguimiento al cumplimiento del plan de acción
+      h2 3.4 Evaluación de la ejecución y resultados del plan
 
     img(src="@/assets/curso/tema3/25.png", alt="", data-aos="zoom-in-down")  
     .row.justify-content-center.z-2
@@ -342,8 +342,8 @@
     .row.justify-content-center.mb-4.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 3.
-          span Aspectos para considerar en la formulación de planes de mejora
+          h5 Tabla 4.
+          span Indicadores más comunes en la evaluación de la ejecución y resultados del plan de acción
         .tabla-a.color-acento-contenido.tabla-a--text-left
           table
             thead
@@ -386,7 +386,9 @@
               tr(style="background-color: #EDF6F2")
                 td #[strong Condiciones para declarar el control del evento]
                 td Permite verificar el cumplimiento de los criterios técnicos establecidos para considerar que el evento se encuentra controlado, según sus características y los lineamientos aplicables. 
-                td (Criterios cumplidos ÷ criterios establecidos) × 100.  
+                td 
+                  p.mb-0 (Criterios cumplidos ÷ criterios establecidos) × 100.
+                  p.mb-0 Debe complementarse con valoración epidemiológica.
                 td 
                   p.mb-0 Si el protocolo establece 5 criterios y se cumplen los 5:  
                   p.mb-0 #[strong (5 ÷ 5) × 100 = 100 %]. Posteriormente se verifica si procede declarar el control. 
@@ -404,9 +406,9 @@
               figure
                 img.imgw-190.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="")
             .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
+              p A continuación, lo invitamos a consultar el siguiente pódcast: 
               TarjetaAudio.mb-3(
-                texto="Técnicas de corte profesional precisión estética y seguridad en la cocina fría"
+                texto="Del hallazgo a la mejora: aprendiendo de los brotes epidemiológicos"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")

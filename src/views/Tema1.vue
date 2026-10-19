@@ -41,7 +41,7 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 1.
-          span Tipos de canales de distribución 
+          span Aspectos para tener en cuenta para la vigilancia frente a eventos de salud pública
         .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
           table
             thead
@@ -84,7 +84,7 @@
       .col-lg-7
         p En este sentido, las mesas de seguimiento no deben limitarse a informar sobre las actividades realizadas, sino que deben permitir verificar el cumplimiento de los compromisos, identificar dificultades, establecer acciones correctivas y fortalecer la respuesta institucional.  
         .bg-terciario.p-4.py-3.rounded-4
-          p.mb-0 El lineamiento establece mecanismos de implementación y seguimiento en los que participan las secretarías de salud, el INPEC y la USPEC, y señala al director del ERON como responsable de organizar la implementación y seguimiento del lineamiento en el establecimiento. De esta manera, estos espacios contribuyen a fortalecer la coordinación intersectorial, mejorar el flujo de información y favorecer la toma de decisiones oportunas frente a los brotes epidemiológicos (MSPS, s. f.) 
+          p.mb-0 El lineamiento establece mecanismos de implementación y seguimiento en los que participan las secretarías de salud, el INPEC y la USPEC, y señala al director del ERON como responsable de organizar la implementación y seguimiento del lineamiento en el establecimiento. De esta manera, estos espacios contribuyen a fortalecer la coordinación intersectorial, mejorar el flujo de información y favorecer la toma de decisiones oportunas frente a los brotes epidemiológicos (MSPS, s. f.).
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -130,7 +130,7 @@
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.mb-4.z-2
       .col-lg-7
-        p En este contexto, los EISP comprenden aquellos eventos que, por su frecuencia, gravedad, comportamiento epidemiológico, posibilidades de prevención o impacto colectivo, requieren vigilancia, notificación, análisis y, cuando corresponda, intervención por parte de las autoridades sanitarias y demás actores responsables. (Ministerio de Salud y Protección Social [MSPS], 2024).
+        p En este contexto, los EISP comprenden aquellos eventos que, por su frecuencia, gravedad, comportamiento epidemiológico, posibilidades de prevención o impacto colectivo, requieren vigilancia, notificación, análisis y, cuando corresponda, intervención por parte de las autoridades sanitarias y demás actores responsables (Ministerio de Salud y Protección Social [MSPS], 2024).
         .bg-terciario-t5.p-4.py-3.rounded-4
           p.mb-0 Su desarrollo requiere mantener actualizada la información de los casos identificados, realizar seguimiento a las personas afectadas y sus contactos cuando corresponda, analizar la evolución del evento y verificar la continuidad de las medidas establecidas. Asimismo, facilita reconocer oportunamente la aparición de nuevos casos, cambios en los factores de riesgo o situaciones que puedan favorecer la transmisión. 
       .col-sm-8.col-lg-5.d-none.d-lg-block
@@ -244,9 +244,9 @@
               figure
                 img.imgw-190.mb-4.mb-sm-0(src="@/assets/curso/common/mic.png", alt="")
             .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
+              p A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.mb-3(
-                texto="Técnicas de corte profesional precisión estética y seguridad en la cocina fría"
+                texto="Actuar, verificar y mejorar: seguimiento de brotes en entornos penitenciarios"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")

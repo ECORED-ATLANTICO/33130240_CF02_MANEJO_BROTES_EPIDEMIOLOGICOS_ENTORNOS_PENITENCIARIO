@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios',
     Description:
-      'Este componente formativo aborda los fundamentos teóricos, conceptuales y normativos relacionados con los brotes epidemiológicos en entornos penitenciarios, fortaleciendo los conocimientos necesarios para comprender su ocurrencia y propagación. Asimismo, orienta el desarrollo de habilidades para identificar, manejar, mitigar y controlar brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON), mediante la aplicación de lineamientos, protocolos y normatividad vigente en salud pública',
+      'Este componente formativo aborda los fundamentos teóricos, conceptuales y normativos relacionados con los brotes epidemiológicos en entornos penitenciarios, fortaleciendo los conocimientos necesarios para comprender su ocurrencia y propagación. Asimismo, orienta el desarrollo de habilidades para identificar, manejar, mitigar y controlar brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON), mediante la aplicación de lineamientos, protocolos y normatividad vigente en salud pública.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal-2.png',
     imagenesDecorativasBanner: [
@@ -146,7 +146,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/33130240_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -195,7 +195,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). <em>Manejo de brotes en población privada de la libertad (PPL)</em> [Documento técnico].',
+        'Ministerio de Salud y Protección Social. (s. f.). Manejo de brotes en población privada de la libertad (PPL) [Documento técnico].',
       link: '',
     },
     {
@@ -205,17 +205,17 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). <em>Lineamientos generales para la vigilancia y control de eventos de interés en salud pública en establecimientos penitenciarios y carcelarios - Colombia 2012</em>.',
+        'Ministerio de Salud y Protección Social. (s. f.). Lineamientos generales para la vigilancia y control de eventos de interés en salud pública en establecimientos penitenciarios y carcelarios - Colombia 2012. [Documento técnico].',
       link: '',
     },
     {
       referencia:
-        'Patiño, C. P., & Mosquera, C. J. (2025). <em>Proceso salud-enfermedad</em> [Presentación de PowerPoint].',
+        'Patiño, C. P., & Mosquera, C. J. (2025). Proceso salud-enfermedad [Presentación de PowerPoint].',
       link: '',
     },
     {
       referencia:
-        'Bernal, C. (s. f.). <em>Fundamentos de epidemiología: Eje 1. Conceptualicemos</em> [Referente de pensamiento].',
+        'Bernal, C. (s. f.). Fundamentos de epidemiología: Eje 1. Conceptualicemos [Referente de pensamiento].',
       link: '',
     },
     {
@@ -225,22 +225,22 @@ export default {
     },
     {
       referencia:
-        'Mosquera Agualimpia, C. J. (2025). <em>Microorganismos y cadena de transmisión</em> [Presentación de PowerPoint]. SENA.',
+        'Mosquera Agualimpia, C. J. (2025). Microorganismos y cadena de transmisión [Presentación de PowerPoint]. SENA.',
       link: '',
     },
     {
       referencia:
-        'Conceptos básicos de epidemiología. (s. f.). <em>Conceptos básicos de epidemiología</em> [Capítulo de libro].',
+        'Conceptos básicos de epidemiología. (s. f.). Conceptos básicos de epidemiología [Capítulo de libro].',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). <em>Guía de vigilancia y control de salud pública para población privada de la libertad</em>.',
+        'Ministerio de Salud y Protección Social. (s. f.). Guía de vigilancia y control de salud pública para población privada de la libertad [Documento técnico].',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2024). <em>Lineamiento para el fortalecimiento de las acciones de prevención de enfermedades transmisibles generadoras de brotes en población privada de la libertad</em>. Ministerio de Salud y Protección Social.',
+        'Ministerio de Salud y Protección Social. (2024). Lineamiento para el fortalecimiento de las acciones de prevención de enfermedades transmisibles generadoras de brotes en población privada de la libertad [Documento técnico]. Ministerio de Salud y Protección Social.',
       link: '',
     },
   ],
@@ -255,7 +255,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
+          nombre: 'Miguel De Jesús Paredes Maestre ',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -265,18 +265,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Carmen Johanna Mosquera',
+          cargo: 'Instructora',
+          centro: 'Centro de servicios de Salud - Regional Antioquia  ',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jair Enrique Coll Gallardo',
+          cargo: 'Evaluador Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -285,12 +280,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

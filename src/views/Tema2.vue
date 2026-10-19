@@ -13,7 +13,7 @@
         div.banner-text.shadow.bg-primario-p20.mb-3
           p.mb-0 La gestión de los brotes epidemiológicos en entornos penitenciarios requiere analizar los resultados alcanzados una vez desarrolladas las acciones previstas, con el fin de fortalecer la capacidad de respuesta institucional. Este análisis permite reconocer aspectos favorables, dificultades presentadas y situaciones que requieren atención, tomando como referencia la información obtenida durante el seguimiento. 
 
-    p.mb-0 A partir de estos resultados, se pueden orientar decisiones, priorizar necesidades y establecer ajustes que contribuyan al aprendizaje institucional, la preparación frente a futuros eventos y la protección de la salud de la población privada de la libertad y demás actores del establecimiento
+    p.mb-0 A partir de estos resultados, se pueden orientar decisiones, priorizar necesidades y establecer ajustes que contribuyan al aprendizaje institucional, la preparación frente a futuros eventos y la protección de la salud de la población privada de la libertad y demás actores del establecimiento.
 
     separador
 
@@ -25,7 +25,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p La valoración de la aplicación de guías, lineamientos y protocolos permite determinar en qué medida las acciones desarrolladas frente a los brotes epidemiológicos en los Eetablecimientos de Reclusión del Orden Nacional (ERON) se encuentran acordes con las orientaciones técnicas establecidas por las autoridades sanitarias. Esta valoración debe considerar las características del evento, las condiciones de la población privada de la libertad y las responsabilidades asignadas a los diferentes actores. 
+        p La valoración de la aplicación de guías, lineamientos y protocolos permite determinar en qué medida las acciones desarrolladas frente a los brotes epidemiológicos en los Establecimientos de Reclusión del Orden Nacional (ERON) se encuentran acordes con las orientaciones técnicas establecidas por las autoridades sanitarias. Esta valoración debe considerar las características del evento, las condiciones de la población privada de la libertad y las responsabilidades asignadas a los diferentes actores. 
         .bg-terciario.p-4.py-3.rounded-4
           p.mb-0 El lineamiento establece que las acciones de prevención, vigilancia y control deben desarrollarse de manera articulada entre los sectores de salud y justicia, con el propósito de fortalecer la respuesta institucional y disminuir el riesgo de enfermedades transmisibles generadoras de brotes (Ministerio de Salud y Protección Social [MSPS], 2024). 
 
@@ -112,17 +112,17 @@
         LineaTiempoD.color-secundario
           div(numero="1" titulo="Disponibilidad de espacios para aislamiento ")
             p.mb-0 Verificar la disponibilidad y adecuación de espacios destinados al aislamiento oportuno de casos que lo requieran, considerando condiciones de seguridad, ventilación, higiene y atención, para disminuir el contacto con otras personas y limitar posibles cadenas de transmisión. 
-          div(numero="2" titulo="Observar el comportamiento del evento")
+          div(numero="2" titulo="Garantía de continuidad y calidad del agua")
             p.mb-0 Asegurar el suministro continuo de agua en condiciones adecuadas para consumo, higiene, preparación de alimentos, limpieza y demás necesidades sanitarias, realizando controles que permitan detectar oportunamente situaciones que puedan representar riesgos para la salud colectiva. 
-          div(numero="3" titulo="Verificar las medidas implementadas")
+          div(numero="3" titulo="Mantenimiento de los tanques")
             p.mb-0 Realizar inspección, limpieza, desinfección y mantenimiento periódico de los tanques de almacenamiento de agua, verificando su estado y funcionamiento para prevenir contaminación y contribuir a conservar condiciones sanitarias adecuadas dentro del establecimiento penitenciario. 
-          div(numero="4" titulo="Tomar decisiones frente a los resultados")
+          div(numero="4" titulo="Verificación de las condiciones sanitarias de la infraestructura")
             p.mb-0 Inspeccionar las condiciones físicas y sanitarias de los diferentes espacios del establecimiento, identificando deficiencias relacionadas con ventilación, humedad, redes hidrosanitarias, disposición de residuos, servicios sanitarios u otros aspectos que puedan favorecer riesgos epidemiológicos. 
-          div(numero="5" titulo="Tomar decisiones frente a los resultados")
-            p.mb-0 Fortalecer la limpieza y desinfección periódica de superficies y espacios de uso frecuente como celdas y áreas de sanidad; aplicando procedimientos y productos adecuados para disminuir la presencia de agentes contaminantes y reducir riesgos de transmisión dentro del establecimiento. 
-          div(numero="6" titulo="Tomar decisiones frente a los resultados")
+          div(numero="5" titulo="Limpieza y desinfección de áreas comunes")
+            p.mb-0 Fortalecer la limpieza y desinfección periódica de superficies y espacios de uso frecuente como celdas y áreas de sanidad, aplicando procedimientos y productos adecuados para disminuir la presencia de agentes contaminantes y reducir riesgos de transmisión dentro del establecimiento. 
+          div(numero="6" titulo="Fortalecimiento del análisis de los brotes")
             p.mb-0 Profundizar el análisis de la información obtenida durante el brote para comprender su comportamiento, reconocer patrones, factores asociados y posibles brechas en la respuesta, facilitando la definición de medidas de intervención y oportunidades de mejora. 
-          div(numero="7" titulo="Tomar decisiones frente a los resultados")
+          div(numero="7" titulo="Toma de decisiones basada en los resultados")
             p.mb-0 Utilizar los resultados del seguimiento y análisis epidemiológico como fundamento para priorizar acciones, ajustar las medidas implementadas, asignar recursos y establecer intervenciones de mejora acordes con las necesidades y condiciones identificadas durante la gestión del brote. 
       .col-sm-8.col-lg-5
         figure
@@ -192,7 +192,7 @@
         .bg-primario-p20.p-4.py-3.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-10.mb-4.mb-lg-0
-              p.mb-0 Este enfoque coincide con la Organización Mundial de la Salud (WHO, 2023), que plantea la necesidad de fortalecer la preparación, prevención, detección y respuesta frente a enfermedades infecciosas en los establecimientos penitenciarios, así como la conexión de estos con los sistemas de salud generales y el uso de información para orientar la toma de decisiones 
+              p.mb-0 Este enfoque coincide con la Organización Mundial de la Salud (WHO, 2023), que plantea la necesidad de fortalecer la preparación, prevención, detección y respuesta frente a enfermedades infecciosas en los establecimientos penitenciarios, así como la conexión de estos con los sistemas de salud generales y el uso de información para orientar la toma de decisiones. 
             .col-lg-2
               figure
                 img.imgw-105(src="@/assets/curso/tema2/13.png", alt="" data-aos="zoom-in-down")

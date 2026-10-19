@@ -22,7 +22,7 @@ export default {
       tema: 'Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar la apropiación de los conceptos y procedimientos relacionados con la Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios',
+        '<b> Objetivo:</b> verificar la apropiación de los conceptos y procedimientos relacionados con la Intervención, control, seguimiento y mejora de brotes epidemiológicos en entornos penitenciarios.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
