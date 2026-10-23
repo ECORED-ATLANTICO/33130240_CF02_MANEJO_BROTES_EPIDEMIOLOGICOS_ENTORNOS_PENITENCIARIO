@@ -410,7 +410,7 @@
               TarjetaAudio.mb-3(
                 texto="Del hallazgo a la mejora: aprendiendo de los brotes epidemiológicos"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/33130240_CF02_Podcast_02.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")
 
 </template>

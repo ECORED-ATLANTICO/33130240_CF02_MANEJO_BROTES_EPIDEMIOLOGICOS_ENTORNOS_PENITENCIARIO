@@ -248,7 +248,7 @@
               TarjetaAudio.mb-3(
                 texto="Actuar, verificar y mejorar: seguimiento de brotes en entornos penitenciarios"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/33130240_CF02_Podcast_01.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")
 
 
