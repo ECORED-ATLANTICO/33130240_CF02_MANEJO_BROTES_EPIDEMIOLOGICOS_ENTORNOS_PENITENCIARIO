@@ -195,37 +195,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). Manejo de brotes en población privada de la libertad (PPL) [Documento técnico].',
-      link: '',
-    },
-    {
-      referencia:
-        'Organización Mundial de la Salud. (2023). <em>Principles for making prisons and places of detention resilient to infectious diseases, including epidemic and pandemic threats</em>. WHO Regional Office for Europe.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). Lineamientos generales para la vigilancia y control de eventos de interés en salud pública en establecimientos penitenciarios y carcelarios - Colombia 2012. [Documento técnico].',
-      link: '',
-    },
-    {
-      referencia:
-        'Patiño, C. P., & Mosquera, C. J. (2025). Proceso salud-enfermedad [Presentación de PowerPoint].',
-      link: '',
-    },
-    {
-      referencia:
         'Bernal, C. (s. f.). Fundamentos de epidemiología: Eje 1. Conceptualicemos [Referente de pensamiento].',
-      link: '',
-    },
-    {
-      referencia:
-        'Leavell, H. R., & Clark, E. G. (1965). <em>Preventive medicine for the doctor in his community: An epidemiologic approach</em> (3rd ed.). McGraw-Hill.',
-      link: '',
-    },
-    {
-      referencia:
-        'Mosquera Agualimpia, C. J. (2025). Microorganismos y cadena de transmisión [Presentación de PowerPoint]. SENA.',
       link: '',
     },
     {
@@ -235,12 +205,42 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). Guía de vigilancia y control de salud pública para población privada de la libertad [Documento técnico].',
+        'Leavell, H. R., & Clark, E. G. (1965). <em>Preventive medicine for the doctor in his community: An epidemiologic approach</em> (3rd ed.). McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2024). Lineamiento para el fortalecimiento de las acciones de prevención de enfermedades transmisibles generadoras de brotes en población privada de la libertad [Documento técnico]. Ministerio de Salud y Protección Social.',
+        'Ministerio de Salud y Protección Social. (s. f.). Guía de vigilancia y control de salud pública para población privada de la libertad.',
+      link: 'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IGUB/caprecom-guia-vigilancia-control-salud-publica-ppl.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). Manejo de brotes en población privada de la libertad (PPL) [Documento técnico].',
+      link: 'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/ED/VSP/manejo-brotes-ppl.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2024). Lineamiento para el fortalecimiento de las acciones de prevención de enfermedades transmisibles generadoras de brotes en población privada de la libertad.',
+      link: 'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ET/presentacion-fortalecimiento-prevencion-enfermedades-brotes-poblacion-privada-libertad.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). Lineamientos generales para la vigilancia y control de eventos de interés en salud pública en establecimientos penitenciarios y carcelarios - Colombia 2012.',
+      link: 'https://www.minsalud.gov.co/Documentos%20y%20Publicaciones/Lineamientos%20vigilancia%20y%20control%20de%20eventos%20de%20inter%C3%A9s%20en%20salud%20p%C3%BAblica%20en%20centros%20carcelarios%202012.pdf',
+    },
+    {
+      referencia:
+        'Mosquera Agualimpia, C. J. (2025). Microorganismos y cadena de transmisión [Presentación de PowerPoint]. SENA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial de la Salud. (2023). <em>Principles for making prisons and places of detention resilient to infectious diseases, including epidemic and pandemic threats</em>. WHO Regional Office for Europe.',
+      link: '',
+    },
+    {
+      referencia:
+        'Patiño, C. P., & Mosquera, C. J. (2025). Proceso salud-enfermedad [Presentación de PowerPoint].',
       link: '',
     },
   ],
